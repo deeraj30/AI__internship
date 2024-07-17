@@ -1,0 +1,106 @@
+Assignment6:
+Command Line Basics
+Command Line Navigation: Demonstrate how to navigate the file system using basic command-line commands (e.g., cd, ls, pwd) in your preferred command-line interface (Windows Command Prompt or Linux Terminal).File Manipulation: Create, copy, move, and delete files and directories using command-line commands. Provide screenshots of each operation.
+
+
+
+
+Command Line Navigation
+Windows Command Prompt
+Navigate to a Directory:
+
+Use cd command followed by the directory path.
+
+cd Desktop
+
+List Files and Directories:
+
+Use dir command to list files and directories.
+
+dir
+
+Print Current Directory:
+
+Use cd without any arguments.
+
+cd
+
+Linux Terminal
+Navigate to a Directory:
+
+Use cd command followed by the directory path.
+
+cd Documents
+
+List Files and Directories:
+
+Use ls command to list files and directories.ls
+
+Print Current Directory:
+
+Use pwd command.
+
+pwd
+
+File Manipulation
+Windows Command Prompt
+Create a Directory:
+
+Use mkdir command followed by the directory name.
+
+mkdir NewFolder
+
+Copy a File:
+
+Use copy command followed by source and destination paths.
+
+copy file.txt NewFolder\
+
+Move a File:
+
+Use move command followed by source and destination paths.
+
+move file.txt NewFolder\
+
+Delete a File:
+
+Use del command followed by the file name.
+
+del file.txt
+
+Delete a Directory:
+
+Use rmdir command followed by the directory name.
+
+rmdir NewFolder /s /q
+
+Linux Terminal
+Create a Directory:
+
+Use mkdir command followed by the directory name.
+
+mkdir NewFolder
+
+Copy a File:
+
+Use cp command followed by source and destination paths.
+
+cp file.txt NewFolder/
+
+Move a File:
+
+Use mv command followed by source and destination paths.
+
+mv file.txt NewFolder/
+
+Delete a File:
+
+Use rm command followed by the file name.
+
+rm file.txt
+
+Delete a Directory:
+
+Use rm command with -r flag for recursive deletion.
+
+rm -r NewFolder

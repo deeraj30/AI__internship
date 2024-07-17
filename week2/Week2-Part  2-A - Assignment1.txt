@@ -1,0 +1,50 @@
+Assignment1:
+GeeksforGeeks: Visit GeeksforGeeks Python Tutorial and summarize the topics covered in their Python tutorial. Include any code examples that you find particularly helpful.
+Real Python: Explore Real Python and describe what sets it apart as a platform for Python learning. Provide a summary of a tutorial or article that you find informative.
+Tutorials Point: Investigate Tutorials Point Python Tutorial and provide a summary of their Python basics section. Highlight any unique insights or exercises.
+W3Schools:Review W3Schools Python Tutorial and summarize their beginner-friendly Python tutorial. Mention any interactive examples that enhance learning.Programiz:Explore Programiz Python Programming and summarize their approach to teaching Python. Include any practical coding exercises you find valuable.
+
+
+
+GeeksforGeeks Python Tutorial
+GeeksforGeeks offers a comprehensive Python tutorial covering:
+
+Introduction to Python: Basics, installation, and setup.
+Data Types: Integers, floats, strings, lists, tuples, dictionaries.
+Control Flow: Conditional statements and loops.
+Functions: Defining functions with arguments and return values.
+Modules: Importing and using built-in and third-party libraries.
+File Handling: Reading from and writing to files.
+Object-Oriented Programming: Classes, objects, inheritance, polymorphism.
+Advanced Topics: Exception handling, decorators, generators, lambda functions.
+Real Python
+Real Python stands out with:
+
+Quality Content: Written by Python experts with real-world experience.
+Project-Based Learning: Hands-on projects and examples.
+Coverage: Web development, data science, machine learning.
+Community Support: Active forums and Q&A sections.
+TutorialsPoint Python Tutorial
+TutorialsPoint covers:
+
+Python Introduction: History, features, and applications.
+Python Syntax: Variables, operators, control structures.
+Functions and Modules: Defining functions, importing modules.
+Data Structures: Lists, tuples, dictionaries, sets.
+File Handling: Reading and writing files.
+Exceptions: Handling errors and exceptions.
+W3Schools Python Tutorial
+W3Schools features:
+
+Interactive Examples: Live coding examples for hands-on learning.
+Learn-by-Doing: Practical examples demonstrating Python concepts.
+Clear Explanations: Step-by-step tutorials with simple code snippets.
+Quizzes and Exercises: Interactive quizzes and exercises.
+Programiz Python Programming
+Programiz offers:
+
+Python Basics: Fundamentals like variables, data types, control structures.
+Object-Oriented Programming: Classes, objects, inheritance, polymorphism.
+Advanced Topics: Generators, decorators, context managers, functional programming.
+Interactive Learning: Code editor for practicing Python directly on the website.
+Community and Resources: Quizzes, challenges, and a supportive community.
