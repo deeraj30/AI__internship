@@ -1,0 +1,60 @@
+Assignment 1:
+Numpy and Pandas Numpy: Explore NumpyOfficial Documentation. Summarize the essential concepts and features covered in the beginner's guide.
+Pandas: Investigate Pandas Official Documentation. Summarize the key aspects of Pandas for beginners.
+
+
+
+
+Numpy
+Introduction to Numpy
+Numpy is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a comprehensive collection of mathematical functions to operate on these arrays.
+
+Key Concepts and Features
+Arrays: The core data structure in Numpy is the ndarray, which is a multi-dimensional array of elements, all of the same type.
+Operations: Numpy provides efficient array computations with element-wise operations, broadcasting, slicing, and indexing.
+Mathematical Functions: Numpy includes a variety of mathematical functions for tasks like linear algebra, Fourier transform, statistics, and random number generation.
+Performance: Numpy arrays are more memory-efficient and faster than Python lists, making Numpy ideal for numerical and scientific computing.
+Example Code
+Creating Numpy arrays:
+
+import numpy as np
+
+# Create a 1D array
+arr1 = np.array([1, 2, 3, 4, 5])
+
+# Create a 2D array
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])
+Performing operations on arrays:
+
+# Element-wise addition
+result = arr1 + arr1
+
+# Matrix multiplication
+result = np.dot(arr2, arr2.T)
+Pandas
+Introduction to Pandas
+Pandas is a powerful library for data manipulation and analysis built on top of Numpy. It provides high-level data structures and functions designed for working with structured data, such as tables and time series.
+
+Key Features
+Data Structures: Pandas introduces Series (1-dimensional) and DataFrame (2-dimensional) data structures, which can hold different data types.
+Data Operations: Pandas facilitates data cleaning, transformation, and analysis through functionalities like indexing, selection, filtering, merging, and grouping.
+Handling Missing Data: Tools for handling missing data include filling (fillna()), dropping (dropna()), and interpolation.
+IO Tools: Supports reading and writing data from various file formats such as CSV, Excel, SQL databases, and JSON.
+Example Code
+Creating a DataFrame:
+
+import pandas as pd
+
+# Create a DataFrame
+data = {'Name': ['Alice', 'Bob', 'Charlie'],
+        'Age': [25, 30, 35],
+        'City': ['New York', 'Los Angeles', 'Chicago']}
+df = pd.DataFrame(data)
+Performing operations on DataFrame:
+
+
+# Selecting rows and columns
+df_filtered = df[df['Age'] > 30]
+
+# Grouping and aggregation
+grouped_data = df.groupby('City').mean()
