@@ -1,0 +1,77 @@
+Assignment4:Virtual Environment Setup. Explain the concept of a virtual environment in Python.
+Why is it important, especially in data science projects?
+Create a virtual environment named "ml_env" using the venv module (for Python 3.3 and later). Activate the virtual environment and install a Python library of your choice (e.g., NumPy) within this environment. Write a Python script that imports the library and performs a basic operation (e.g., creating an array or matrix)
+
+Virtual Environment Setup in Python
+Concept of a Virtual Environment
+A virtual environment in Python is an isolated environment that allows you to manage dependencies for different projects independently. Each virtual environment has its own Python interpreter and libraries, separate from the system-wide Python installation. This isolation ensures that dependencies for one project do not interfere with those of another, making it easier to manage multiple projects with varying requirements on the same machine.
+
+Importance in Data Science Projects
+Virtual environments are particularly important in data science projects for several reasons:
+
+Dependency Management: Data science projects often rely on specific versions of libraries. Virtual environments enable you to maintain different dependencies for each project, preventing conflicts.
+
+Reproducibility: Virtual environments help create consistent and reproducible setups for data analysis and machine learning experiments. This is crucial for collaboration and deployment across different systems.
+
+Isolation: By isolating project dependencies from the system's global Python environment, virtual environments prevent version clashes and ensure consistent behavior across development and production environments.
+
+Creating and Using a Virtual Environment
+Here’s how to create and use a virtual environment named "ml_env" using the venv module, and then install a library (e.g., NumPy) within this environment.
+
+1. Create the Virtual Environment
+Open a terminal or command prompt and navigate to your project directory. Run the following command to create a virtual environment named ml_env:
+
+
+python -m venv ml_env
+
+2. Activate the Virtual Environment
+
+On Windows:
+
+ml_env\Scripts\activate
+
+On macOS/Linux:
+
+source ml_env/bin/activate
+After activation, your terminal prompt will change to indicate that the virtual environment is active.
+
+3. Install a Python Library (NumPy)
+With the virtual environment activated, install NumPy using pip:
+
+
+pip install numpy
+
+4. Write a Python Script
+Create a Python script named basic_operation.py that imports NumPy and performs a basic operation, such as creating an array.
+
+
+import numpy as np
+
+# Create a 1D array
+array = np.array([1, 2, 3, 4, 5])
+print("Array:", array)
+
+# Perform a basic operation
+print("Sum of array elements:", np.sum(array))
+
+
+5. Run the Python Script
+Ensure the virtual environment is still activated, and then run the script:
+
+python basic_operation.py
+
+The output should be:
+
+
+
+Array: [1 2 3 4 5]
+Sum of array elements: 15
+
+
+
+
+
+
+
+
+
